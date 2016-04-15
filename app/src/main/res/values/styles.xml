@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:style/Theme.Holo.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!--<item name="android:actionBarStyle">@style/PolskaBar</item>-->
+    </style>
+
+    <!--<style name="PolskaBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">-->
+        <!--<item name="android:background">@color/tool_bar_color</item>-->
+    <!--</style>-->
+
+</resources>

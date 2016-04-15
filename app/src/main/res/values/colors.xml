@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tool_bar_color">#ffc65f55</color>
+    <color name="main_color">#fff2f2f2</color>
+    <color name="white_text">#ffffff</color>
+    <color name="list_block">#2d607a8c</color>
+    <color name="devider_color">#9b9b9b</color>
+
+    <color name="text_color">#ff1e2535</color>
+    <color name="sub_text_color">#ffc65f55</color>
+    <color name="text_shadow">#dc414141</color>
+</resources>

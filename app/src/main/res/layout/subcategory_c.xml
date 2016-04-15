@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/c_category_scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/c_sub_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:scrollbars="vertical"
+            android:textColor="@color/text_color"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:id="@+id/c_general_docs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/rounded_corner_rect"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:gravity="center_horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/c_gen_docs_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tourism_gen_content_heading"
+                    android:layout_weight="1"
+                    android:textColor="@color/text_color"
+                    android:textSize="18sp"/>
+
+                <ImageView
+                    android:id="@+id/c_gen_docs_arrow"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/ic_arrow_down" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/gen_dev"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_height="1dp"
+                android:background="@color/devider_color"/>
+
+            <TextView
+                android:id="@+id/c_gen_docs_pt1"
+                android:layout_width="match_parent"
+                android:textColor="@color/text_color"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/c_photo_cond"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/photo_req"
+                android:background="@drawable/rounded_corner_button"
+                android:textColor="@color/white_text"
+                android:layout_margin="10dp"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/c_gen_docs_pt2"
+                android:layout_width="match_parent"
+                android:textColor="@color/text_color"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/c_additional_docs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/rounded_corner_rect"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/c_add_docs_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tourism_add_content_heading"
+                    android:layout_weight="1"
+                    android:textColor="@color/text_color"
+                    android:textSize="18sp"/>
+
+                <ImageView
+                    android:id="@+id/c_add_docs_arrow"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/ic_arrow_down"/>
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/add_dev"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_height="1dp"
+                android:background="@color/devider_color"/>
+
+            <TextView
+                android:id="@+id/c_add_docs_content"
+                android:layout_width="match_parent"
+                android:textColor="@color/text_color"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/c_employment_docs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/rounded_corner_rect"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/c_empl_docs_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tourism_empl_content_heading"
+                    android:layout_weight="1"
+                    android:textColor="@color/text_color"
+                    android:textSize="18sp"/>
+
+                <ImageView
+                    android:id="@+id/c_empl_docs_arrow"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/ic_arrow_down"/>
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/empl_dev"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_height="1dp"
+                android:background="@color/devider_color"/>
+
+            <TextView
+                android:id="@+id/c_empl_docs_content"
+                android:layout_width="match_parent"
+                android:textColor="@color/text_color"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/c_finance_docs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/rounded_corner_rect"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/c_fin_docs_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tourism_fin_content_heading"
+                    android:layout_weight="1"
+                    android:textColor="@color/text_color"
+                    android:textSize="18sp"/>
+
+                <ImageView
+                    android:id="@+id/c_fin_docs_arrow"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/ic_arrow_down"/>
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/fin_dev"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_height="1dp"
+                android:background="@color/devider_color"/>
+
+            <TextView
+                android:id="@+id/c_fin_docs_content"
+                android:layout_width="match_parent"
+                android:textColor="@color/text_color"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/c_purpose_to_stay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/rounded_corner_rect"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/c_stay_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tourism_purpose_content_heading"
+                    android:layout_weight="1"
+                    android:textColor="@color/text_color"
+                    android:textSize="18sp"/>
+
+                <ImageView
+                    android:id="@+id/c_stay_arrow"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/ic_arrow_down"/>
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/stay_dev"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_height="1dp"
+                android:background="@color/devider_color"/>
+
+            <TextView
+                android:id="@+id/c_stay_content"
+                android:layout_width="match_parent"
+                android:textColor="@color/text_color"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/c_important_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/rounded_corner_rect"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/c_info_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tourism_info_content_heading"
+                    android:textColor="@color/tool_bar_color"
+                    android:layout_weight="1"
+                    android:textSize="18sp"/>
+
+                <ImageView
+                    android:id="@+id/c_info_arrow"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/ic_arrow_down"/>
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/info_dev"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_height="1dp"
+                android:background="@color/devider_color"/>
+
+            <TextView
+                android:id="@+id/c_info_content"
+                android:layout_width="match_parent"
+                android:textColor="@color/text_color"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
